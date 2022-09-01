@@ -1,107 +1,82 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-
-body {
-	background: #2a2c3b;
-	font-family: 'Lato', sans-serif;
+* {
+    font-family: 'Red Hat Display';
 }
 
-.login-content {
-	max-width: 450px;
+.benefit-section {
+    background: url('../img/bg.jpg');
     width: 100%;
-    height: 550px;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -200px;
-	margin-top: -286px;
-	border-radius: 8px;
+    background-size: cover;
 }
 
-.bgku {
-	background: #2f3242;
+.nav-link{
+    display: block;
+    text-align: center;
+    padding: 16px 18px;
 }
 
-.logo {
-	width: 128px;
-	height: 128px;
-	margin: 5px;
+.nav-link:hover{
+     font-weight: 900;
 }
 
-.text-logo {
-	text-align: center;
-	font-weight: bold;
-	font-size: 32px;
-	color: white;
+.container-fluid {
+    padding-top: 5px;
+    height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    line-height: 1.75rem
 }
 
-.form-control {
-	width: 18rem;
-	height: 3rem;
-	left: 65px;
-	position: relative;
-	border-radius: 5px;
-	background-color: #ccffee;
+.bg-light {
+    background-color: rgba(253, 215, 170, 0.46)!important;
 }
 
-.btn {
-	font-size: 22px;
-	background-color: #0278ae;
-	border: none;
-	width: 18rem;
-	height: 3rem;
-	border-radius: 5px;
+.footer {
+    background-color: rgba(253, 215, 170, 0.46);
+    padding-top: 5px;
+    height: 100%;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    line-height: 1.75rem
 }
 
-.btn:hover {
-	background-color: blue;
+ul.benefit > li {
+	padding-left: 36px;
+    margin-bottom: 20px;
+	list-style: none;
+	background-image: url("../img/check-mark.png");
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-size: 20px;
 }
 
-.nomember {
-	background: #2f3242;
-	padding: 10px;
-	padding-top: 20px;
-	border-radius: 0px 0px 5px 5px;
-	color: white;
+.justify {
+    text-align: justify;
 }
 
-.nomember a{
-	text-decoration: none;
-	color: rgb(158, 163, 240);
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
 }
 
-.forgot {
-	position: relative;
-	right: -20%;
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
 }
+.hero-section {
+    text-align: center;
+    background-image: url('../img/bg_1.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    padding: 50px;
+    padding-top: 160px;
+    position: relative;
 
-.forgot a {
-	text-decoration: none;
-	font-size: 14px;
-	color: rgb(158, 163, 240);
 }
-
-.copyright {
-	color: white;
-	padding: 15px;
-}
-
-/*support google chrome*/
-.form-control::-webkit-input-placeholder{
-	color: #00000036;
-}
-
-/*support mozilla*/
-.form-control:-moz-input-placeholder{
-	color: red;
-}
-
-/*support internet explorer*/
-.form-control:-ms-input-placeholder{
-	color: red;
-}
-
-
-
-
-
